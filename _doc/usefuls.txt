@@ -2,3 +2,7 @@ git ini
 git status
 git commit -m "msg"
 git log
+
+
+
+
