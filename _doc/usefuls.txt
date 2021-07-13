@@ -2,6 +2,7 @@ git ini
 git status
 git commit -m "msg"
 git log
+git config -l --global/system/local
 
 
 
