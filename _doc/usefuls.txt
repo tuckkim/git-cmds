@@ -1,5 +1,6 @@
 git ini
-git status
+22222
+git status "dummy text here"
 git add .
 git commit -a -m "msg"  "-a is add all"
 git commit --amend
