@@ -10,3 +10,9 @@ git switch -c branch-name  "-c is create"
 git switch master, git merge branch-name
 
 
+
+
+
+
+
+end
