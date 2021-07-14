@@ -1,12 +1,11 @@
 git ini
 git status
-git add .
-git commit -a -m "msg"  "-a is add all"
+git add .  "add all untrack & new"
+444444
+git commit -a -m "msg"  "-a is add untrack only"
 git commit --amend
 git log --oneline
 git config -l --global/system/local
 git branch -d branch-name "-d is delete; -m is rename"
 git switch -c branch-name  "-c is create"
 git switch master, git merge branch-name
-
-
