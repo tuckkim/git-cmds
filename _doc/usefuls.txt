@@ -1,18 +1,23 @@
 git ini
 git status
-git add .  "add all modified & untracked"
-git commit -a -m "msg"  "-a is add modified only, -am short-hand"
-git commit --amend  "amend commit comment"
+git add .  "add all unstaged & untracked"
+git commit -a -m "msg"  "-a is add unstaged only or -am (short-hand)"
+git commit --amend
 git log --oneline
 git config -l --global/system/local
 git branch -d branch-name "-d is delete; -m is rename"
 git switch -c branch-name  "-c is create"
 git switch master, git merge branch-name
-git diff
-git diff commithash1..commithash2
-git stash
-git stash pop
-git stash apply
+git diff  "compare with unstaged"
+git diff HEAD  "compare with last commit, unstaged & untracked"
+git diff --staged  "compare with whatever files u put in staged & untracked"
+git diff branch1..branch2, git diff 329fwwb..x0wk327  "compare branch & commit"
+git stash <save>
 git stash list
+git stash apply <stash@{2}>
+git stash pop
+git stash drop stash@{2}
+git stash clear
 git checkout HEAD~1 || git switch -   "go back one commit"
-git checkout HEAD <filename>  "discard changes to last commit"
+git checkout HEAD <filename> || git checkout -- <filename> || git restore filename  "discard changes to last commit"
+git restore --source HEAD~1 filename  "restore filename content using 2 commits before"
