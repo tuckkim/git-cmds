@@ -6,4 +6,5 @@ git remote -v
 git remote add origin https://github.com/blah/repo.git
 git remote rename <old> <new>
 git remote remove <name>
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 git push <remote> <branch>
