@@ -1,0 +1,4 @@
+git clone <git-url>
+git config --list --local
+git config --local user.email "test@test.com"
+git config --local user.name "testaccount"
