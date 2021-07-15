@@ -21,3 +21,4 @@ git stash clear
 git checkout HEAD~1 || git switch -   "go back one commit"
 git checkout HEAD <filename> || git checkout -- <filename> || git restore filename  "discard changes to last commit"
 git restore --source HEAD~1 filename  "restore filename content using 2 commits before"
+git reset <commit-hash>  "erase commit back to commit-hash, but changes remain, lost chances to merge"
