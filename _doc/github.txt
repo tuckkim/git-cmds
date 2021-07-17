@@ -12,3 +12,9 @@ git push <remote> <branch>
 git push <remote> <local-branch>:<remote-branch>  "push local name to different remote branch name"
 git push -u origin <branch>   "this will remember the path, so next time u can just do 'git push'"
 git branch -avv
+git checkout origin/master  "to see what remote commit look like"
+git switch -  "go back last HEAD positino"
+git switch puppies || git checkout --track origin/puppies   "if u clone a repo, and need connect branch"
+git fetch <remote>  "all branch"
+git fetch <remote> <branch>  "only branch"
+git pull <remote> <branch>
