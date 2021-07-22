@@ -8,6 +8,7 @@ git remote rename <old> <new>
 git remote remove <name>
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 git remote show origin
+git remote add upstream https://github.com/blah/original-fork-repo.git
 git push <remote> <branch>
 git push <remote> <local-branch>:<remote-branch>  "push local name to different remote branch name"
 git push -u origin <branch>   "this will remember the path, so next time u can just do 'git push'"

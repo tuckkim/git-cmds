@@ -24,3 +24,7 @@ git restore --source HEAD~1 filename  "restore filename content using 2 commits 
 git reset <commit-hash>  "erase commit back to commit-hash, but changes remain, lost chances to merge"
 git reset --hard <commit-hash> || <HEAD~1>  "erase commit & changes back to commit-hash"
 git revert <commit-hash>  "make a new commit by undoing all chances back to the commit-hash instead of erase"
+git rebase master  "normally on branch, then pull master commit as base, and put new branch commit on top of commit history"
+git rebase i HEAD~9  "on branch, clean history by amend,remove,combine commits"
+git tag
+git tag -l "pattern"  "search pattern like *beta*"
