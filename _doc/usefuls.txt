@@ -12,6 +12,7 @@ git diff  "compare with unstaged"
 git diff HEAD  "compare with last commit, unstaged & untracked"
 git diff --staged  "compare with whatever files u put in staged & untracked"
 git diff branch1..branch2, git diff 329fwwb..x0wk327  "compare branch & commit"
+git diff tag1 tag2  "compare between tags"
 git stash <save>
 git stash list
 git stash apply <stash@{2}>
@@ -28,3 +29,7 @@ git rebase master  "normally on branch, then pull master commit as base, and put
 git rebase i HEAD~9  "on branch, clean history by amend,remove,combine commits"
 git tag
 git tag -l "pattern"  "search pattern like *beta*"
+git tag <tagname>  "add a lightweight tag to the current HEAD"
+git tag <tagname> <commit>  "add the tag to specified commit"
+git tag -a <tagname>  "add annotation tag"
+git show <tagname>  "show info of a tag or commit"

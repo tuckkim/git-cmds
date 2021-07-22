@@ -19,3 +19,5 @@ git switch puppies || git checkout --track origin/puppies   "if u clone a repo, 
 git fetch <remote>  "all branch"
 git fetch <remote> <branch>  "only branch"
 git pull <remote> <branch>
+git push --tag "push will not upload your tags unless with --tag, for all tags"
+git push origin tagname  "push one tag name"
