@@ -33,3 +33,8 @@ git tag <tagname>  "add a lightweight tag to the current HEAD"
 git tag <tagname> <commit>  "add the tag to specified commit"
 git tag -a <tagname>  "add annotation tag"
 git show <tagname>  "show info of a tag or commit"
+
+git hash-object & git cat-file  "these are cmds to understand how git work"
+git reflog show HEAD| HEAD@{2}| main@{one.week.ago}| branch@{yesterday}
+git reset --hard <commit-hash>  "if u accidentally remove something, use 'git reflog' to retrieve back commit-hash not appearing in 'git log', then reset back. all hash will not be removed"
+reflog also can retrieve hash after rebase
