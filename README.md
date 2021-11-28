@@ -6,16 +6,18 @@ some useful urls references
 
 practise everyday!
 
-practising too
+#### …or create a new repository on the command line
 
-practising again!
+echo "# books" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:<username>/<repo-name>.git
+git push -u origin main
 
-i practise today, did u?
+#### …or push an existing repository from the command line
 
-again!
-
-and again!
-
-again!
-
-code .
+git remote add origin git@github.com:<username>/<repo-name>.git
+git branch -M main
+git push -u origin main
